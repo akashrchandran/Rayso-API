@@ -1,6 +1,6 @@
 {
 	"name": "Rayso-API",
-	"description": "Provides ray.so as a rest API version. Make beautiful and prettified code screenshots by just send a POST or GET request.",
+	"description": "Provides ray.so as a REST API version. Make beautiful and prettified code screenshots by just sending a POST or GET request.",
 	"repository": "https://github.com/akashrchandran/Rayso-API",
 	"keywords": [
 	  "node",

@@ -1,7 +1,7 @@
 {
   "name": "rayso-api",
   "version": "1.0.1",
-  "description": "Provides ray.so as a rest API version. Make beautiful and prettified code screenshots by just send a POST or GET request",
+  "description": "Provides ray.so as a REST API version. Make beautiful and prettified code screenshots by just sending a POST or GET request.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
