@@ -1,0 +1,23 @@
+{
+	"name": "Rayso-API",
+	"description": "Provides ray.so as a rest API version. Make beautiful and prettified code screenshots by just send a POST or GET request.",
+	"repository": "https://github.com/akashrchandran/Rayso-API",
+	"keywords": [
+	  "node",
+	  "rayso",
+	  "code",
+	  "screenshot",
+	  "prettifier",
+	  "code-snapshot",
+	  "rest-api"
+	],
+	"image": "heroku/nodejs",
+	"buildpacks": [
+	  {
+		"url": "heroku/nodejs"
+	  },
+	  {
+		"url": "https://github.com/jontewks/puppeteer-heroku-buildpack"
+	  }
+	]
+  }

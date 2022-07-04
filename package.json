@@ -1,0 +1,17 @@
+{
+  "name": "rayso",
+  "version": "1.0.0",
+  "description": "api version of rayso api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "puppeteer": "^14.4.1",
+    "puppeteer-core": "^14.4.1",
+    "rayso-api": "github:akashrchandran/rayso"
+  }
+}
