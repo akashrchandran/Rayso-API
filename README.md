@@ -47,3 +47,12 @@ https://rayso.herokuapp.com/api?code=console.log(%22Hello%20World%22)%3B&languag
 ### Example output
 
 <a href="https://github.com/akashrchandran/Rayso-API/"><img src="https://i.ibb.co/LQ38qzR/api.png" alt="api" border="0"></a>
+
+
+### Credits
+
+• [s0ftik3](https://github.com/s0ftik3)
+  -> For creating [rayso-api](https://github.com/s0ftik3/rayso-api) package.
+
+• [Me](https://akashrchandran.in)
+  -> For nothing.
