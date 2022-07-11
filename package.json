@@ -13,7 +13,9 @@
     "express": "^4.18.1",
     "puppeteer": "^14.4.1",
     "puppeteer-core": "^14.4.1",
-    "rayso-api": "github:akashrchandran/rayso"
+    "rayso-api": "github:akashrchandran/rayso",
+    "swagger-jsdoc": "^6.2.1",
+    "swagger-ui-express": "^4.4.0"
   },
   "repository": {
     "type": "git",
