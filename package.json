@@ -12,7 +12,7 @@
   "dependencies": {
     "express": "^4.18.1",
     "puppeteer": "^19.3.0",
-    "puppeteer-core": "^^19.3.0",
+    "puppeteer-core": "^19.3.0",
     "rayso-api": "github:akashrchandran/rayso"
   },
   "repository": {
