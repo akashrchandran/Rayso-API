@@ -13,7 +13,7 @@
     "express": "^4.18.1",
     "puppeteer": "18.1.0",
     "puppeteer-core": "18.1.0",
-    "rayso-api": "github:akashrchandran/rayso"
+    "rayso-api": "^1.1.0"
   },
   "repository": {
     "type": "git",
