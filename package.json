@@ -9,11 +9,12 @@
   },
   "author": "akashrchandran <chandranrakash@gmail.com>",
   "license": "GPL-3.0-or-later",
+  "type": "module",
   "dependencies": {
     "express": "^4.18.1",
-    "puppeteer": "18.1.0",
-    "puppeteer-core": "18.1.0",
-    "rayso-api": "^1.1.0"
+    "puppeteer": "^19.3.0",
+    "puppeteer-core": "^19.3.0",
+    "rayso": "^1.0.1"
   },
   "repository": {
     "type": "git",
