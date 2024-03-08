@@ -6,7 +6,7 @@
 
 Provides [ray.so](https://ray.so/) as a REST API version. Make beautiful and prettified code screenshots by just sending a POST or GET request.
 
-`https://rayso.herokuapp.com/api`
+`https://rayso-c3754cd07bd3.herokuapp.com/api`
 
 </div>
 
@@ -27,7 +27,7 @@ Provides [ray.so](https://ray.so/) as a REST API version. Make beautiful and pre
 > It uses query parameters.
 
 ```
-https://rayso.herokuapp.com/api?code=console.log(%22Hello%20World%22)%3B&language=javascript&title=Test
+https://rayso-c3754cd07bd3.herokuapp.com/api?code=console.log(%22Hello%20World%22)%3B&language=javascript&title=Test
 ```
 
 ### Using POST Request `/`
