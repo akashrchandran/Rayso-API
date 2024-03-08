@@ -1,5 +1,5 @@
 import express from "express";
-import {RaySo, InvalidParameterException} from "rayso";
+import { RaySo, InvalidParameterException } from "rayso";
 
 const app = express();
 
@@ -33,11 +33,11 @@ const handleRaySo = async (req, res, codeExtractor) => {
         res.send(response);
     } catch (error) {
         if (error instanceof InvalidParameterException) {
-          errorResponse(res, 400, error.message);
+            errorResponse(res, 400, error.message);
         } else {
-          errorResponse(res, 500, "An Internal Server Error.");
+            errorResponse(res, 500, "An Internal Server Error.");
         }
-      }
+    }
 };
 
 app.get("/", (req, res) => {

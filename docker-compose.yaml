@@ -1,0 +1,7 @@
+services:
+web:
+build: .
+ports:
+  - "${PORT}:5000"
+redis:
+image: "redis:alpine"
