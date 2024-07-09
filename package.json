@@ -13,9 +13,7 @@
   "type": "module",
   "dependencies": {
     "express": "^4.18.1",
-    "puppeteer": "^19.3.0",
-    "puppeteer-core": "^19.3.0",
-    "rayso": "^1.0.1"
+    "rayso": "^1.2.1"
   },
   "repository": {
     "type": "git",
