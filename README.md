@@ -46,10 +46,43 @@ http://localhost:3000/api?code=console.log(%22Hello%20World%22)%3B&language=java
 
 <a href="https://github.com/akashrchandran/Rayso-API/"><img src="https://i.ibb.co/LQ38qzR/api.png" alt="api" border="0"></a>
 
+# Deployment
+
+# Deployment
+
+To deploy the Rayso-API on Heroku, you can use the Heroku Button. Just click the button below and follow the instructions:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/akashrchandran/rayso-api)
+
+Once the deployment is complete, you will have your own instance of the Rayso-API running on Heroku.
+
+# Local Development
+
+To run the Rayso-API locally, you can follow these steps:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/akashrchandran/rayso-api
+cd rayso-api
+```
+
+2. Install the dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npm start
+```
+
 ### Credits
 
 • [s0ftik3](https://github.com/s0ftik3)
--> For creating [rayso-api](https://github.com/s0ftik3/rayso-api) package.
+-> For creating rayso-api package but now it is not maintained so I have forked his and upated [rayso](https://npmjs.com/rayso).
 
 • [Me](https://akashrchandran.in)
 -> For nothing.
