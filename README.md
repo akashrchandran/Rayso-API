@@ -16,7 +16,7 @@ Provides [ray.so](https://ray.so/) as a REST API version. Make beautiful and pre
 | ------------ | --------------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | `code `      | None (required) | String           | The code which is used to make the screenshot.                                                                                                 |
 | `title `     | `"Untitled-1"`  | String           | The title will be displayed on top of the code box.                                                                                            |
-| `theme`      | `"breeze"`      | String           | There are several options of how your box will look like. Available themes: breeze, candy, crimson, falcon, meadow, midnight, raindrop, sunset |
+| `theme`      | `"breeze"`      | String           | There are several options of how your box will look like. Available themes: vercel, supabase, tailwind, bitmap, noir, ice, sand, forest, mono, breeze, candy, crimson, falcon, meadow, midnight, raindrop, sunset |
 | `background` | `true`          | Boolean          | If disabled, it will create an image of code box only, without background.                                                                     |
 | `darkMode`   | `true`          | Boolean          | If disabled, it will change your theme to its light version.                                                                                   |
 | `padding`    | `32`            | String or Number | Distance between borders and code box. Available values: 16, 32, 64 and 128.                                                                   |
@@ -27,7 +27,7 @@ Provides [ray.so](https://ray.so/) as a REST API version. Make beautiful and pre
 > It uses query parameters.
 
 ```
-https://rayso-c3754cd07bd3.herokuapp.com/api?code=console.log(%22Hello%20World%22)%3B&language=javascript&title=Test
+http://localhost:3000/api?code=console.log(%22Hello%20World%22)%3B&language=javascript&title=Test
 ```
 
 ### Using POST Request `/`
